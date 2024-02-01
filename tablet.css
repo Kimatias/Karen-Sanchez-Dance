@@ -1,0 +1,90 @@
+:root{
+    /*Colores*/
+    --purple: #3b3483;
+}
+
+#menu {
+    display: none;
+}
+
+.portada {
+    background-image: url(./assets/img/Inicio-tablet.jpeg);
+}
+    
+h1 {
+    font-size: 2.1rem;
+}
+
+.mobile-menu {
+    display:none;
+}
+
+.que-es-latindancesport, .que-es-bellydance {
+    width: 100%;
+    padding: 10vh 20%;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.side-image {
+    display:block;
+    position: fixed;
+    left: 5px; 
+    top:45vh;
+}
+
+.side-image img{
+    width: 27%;
+    margin-left: 15px;
+    opacity: 0.7;
+}
+
+.presentacion-tarjetas--container{
+    display:flex;
+    flex-wrap: wrap;
+    align-self: self-end;
+    max-width: 70%; 
+    border-left: 2px solid var(--purple);
+}
+
+.presentacion-detalle--card {
+    padding: 20px 50px 20px 20px;
+}
+
+.imagen-card{
+    display: none;
+    position: fixed;
+    width: 100%;
+    align-self: self-start;
+    justify-content: center;
+}
+
+.presentacion-videos--container{
+    max-width: 100%;
+}
+
+.contenido-card {
+    width: auto;
+    padding: 15px 10px;
+    align-self: center;
+    align-content: center;
+}
+
+.contenido-card h3 {
+    height: 1.2rem;
+}
+
+.video-card {
+    width:355.5px;
+    height:200px;
+}
+
+.video-card video {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width:355.5px;
+    height:200px;
+}
+

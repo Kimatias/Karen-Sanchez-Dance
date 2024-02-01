@@ -1,0 +1,22 @@
+.portada {
+    background-image: url(./assets/img/Inicio-desktop.jpeg);
+}
+
+.presentacion-tarjetas--container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 1408px;  /* 320x4 + 32*4   contenido + margin*/
+}
+
+.presentacion-detalle--card {
+    padding: 20px 80px 20px 20px;
+}
+
+.presentacion-videos--container{
+    width: 1408px;  /* 320x4 + 32*4   contenido + margin*/
+}
+
+.contenido-card {
+    display: flex;
+    flex-direction: column;
+}

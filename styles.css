@@ -1,0 +1,577 @@
+:root{
+    /*Colores*/
+    --purple: #3b3483;
+    --gray-violet: #656194;
+    --gold:#ffe9b1;
+    --dblack: #241f24;
+    --almostblack:#1d1b1d;
+    --ddarkgrey: #5e5f5f;
+    --lightgrey: #a4a6a8;
+    --coldwhite:#f6f5f4;
+    --violet: #efe8fa;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ESTILOS DEL HEADER Y BARRA DE NAVEGACION*/
+
+header {
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height: 15vh;  
+    text-align: center;
+    padding-top: 11vh;
+    background: radial-gradient(circle 358px at bottom, var(--coldwhite) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 90%);/*radial-gradient(circle 400px at bottom, var(--gold) 5%, var(--gold) 5%, var(--purple) 80%);*/
+    box-shadow: 0 0 2.0em 0 var(--coldwhite);
+    z-index:3;
+}
+
+.logo-header {
+    position: absolute;
+    width: 120px;
+    bottom: -61px;
+}
+
+#menu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+#menu:hover{
+    box-shadow: 0 0px 6px var(--coldwhite);
+}
+
+nav {
+    box-sizing:border-box;
+    display: flex;   /*para poder acomodar adentro las etiquetas de textos*/
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav a {
+    display: inline;
+    color: var(--gold);
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: var(--coldwhite);
+    text-shadow: 0 0 0.5em var(--coldwhite);
+}
+
+/*ESTILOS DEL MAIN*/
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height:auto;
+    padding-top: 15vh;
+    background-color: var(--violet);
+}
+
+.portada {
+    position: relative;
+    width: 100%; 
+    min-width: 280px;
+    height: 60vh;
+    background-image: url(./assets/img/Inicio-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+h1 {
+    display:block;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--gold);
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    letter-spacing: 0px; 
+    text-shadow: 1px 1px var(--gray-violet);
+}
+
+#latin-dancesport {
+    display:inline-block;
+    position: absolute;
+    bottom: 1.8em;
+    left: 0px;
+    padding: 0.2em;
+    width: 100%;
+    background: radial-gradient(circle 400px at center, var(--purple) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 90%);
+    box-shadow: 0 0 1.5em 0.2em var(--almostblack);
+}
+
+#bellydance {
+    display:inline-block;
+    position: absolute;
+    bottom: 0em;
+    left: 0px;
+    padding: 0.2em;
+    width:100%;
+    background: radial-gradient(circle 400px at center, var(--purple) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 90%);
+    box-shadow: 0 0 1.5em 0 var(--almostblack);
+}
+
+#latin-dancesport:hover, #bellydance:hover {
+    cursor: pointer;
+    color: var(--violet);
+    text-shadow: 0 0 0.5em var(--coldwhite);
+}
+
+#separador {
+    width: 10px;
+    height: 10px;
+    background-image: url(./assets/img/Luna.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: 0px;
+}
+
+.animacion-entrada--portada { 
+    transform: translateY(-100%);
+    transition: 0.8s ease-in-out;
+}
+
+.que-es-latindancesport {
+    display: flex;
+    flex-direction: column;
+    position: fixed;  
+    width: 100%;
+    height:60vh;
+    align-content: center;
+    overflow-y:scroll;
+    padding: 10vh 20px 10vh 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.7rem;
+    font-weight:300;
+    text-align: justify;
+    color: var(--almostblack);
+}
+
+.que-es-latindancesport::-webkit-scrollbar, .que-es-bellydance::-webkit-scrollbar {
+    background-color: var(--violet);
+    width: 3px;
+}
+
+.que-es-latindancesport::-webkit-scrollbar-thumb, .que-es-bellydance::-webkit-scrollbar-thumb {
+    background-color: var(--gray-violet);
+    width: 3px;
+}
+
+.que-es-bellydance {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 15vh;
+    width: 100%;
+    height: 60vh;
+    align-content: center;
+    overflow-y:scroll;
+    padding: 10vh 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.7rem;
+    font-weight:300;
+    text-align: justify;
+    color: var(--almostblack);
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    margin: 1.2em 0em;
+    border-radius: 8px;
+}
+
+.back-button {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.7rem;
+    font-weight:700;
+    text-align: center;
+    color: var(--purple);
+    border: 1px solid var(--violet);
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+}
+
+.animacion-salida--portada { 
+    transition: 0.8s ease-in-out;
+}
+
+.encabezado{
+    width: 100%; 
+    height: 18vh;
+    align-items: center;
+    background-image: url(./assets/img/Encabezado.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -10px 1.0em 0.1em var(--violet);
+}
+
+/*ESTILOS DEL MENU*/
+
+.mobile-menu {
+    box-sizing:border-box;
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    position:fixed; /*con fixed el menu queda a la vista asi se haga scrolling*/
+    top: 15vh;
+    left: 0px;
+    padding: 10px;
+    box-shadow: inset 0 0 1.0em 0 var(--coldwhite);
+    z-index: 2;
+    /*Glassmorphism*/
+    background: rgba(153, 135, 204, 0.411);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.mobile-menu a {
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: var(--gold);
+    text-shadow: 1px 1px 1px var(--almostblack);
+}
+
+.mobile-menu a:hover{
+    color: var(--coldwhite);
+    text-shadow: 0 0 0.5em var(--gray-violet);
+}
+
+.inactive{
+    display:none;
+}
+
+/*ESTILOS DE LAS TARJETAS EN PAGINAS NO HOME*/
+
+h2 {
+    display:block;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 4.5vh;
+    font-size: 3.5rem;
+    color: var(--purple);
+    text-shadow: 1px 1px 1px var(--lightgrey);
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0px; 
+}
+
+.side-image{
+    display: none;
+}
+
+.presentacion-tarjetas--container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+    min-width: 280px; /*al colocar un widh determinado los elementos se centran*/
+    width: 100%;
+}
+
+.presentacion-detalle--card {
+    width: 100%;
+    min-width: 252px;   /*0.9*280px*/
+    height: auto;
+    padding: 20px;
+}
+
+.texto {
+    width: 100%;
+}
+
+.presentacion-detalle--card h3{
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-align:left;
+    color: var(--purple);
+    letter-spacing: 0px; 
+}
+
+.presentacion-detalle--card p {
+    font-size: 1.7rem;
+    font-weight:300;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    color: var(--almostblack);
+}
+
+.clases b{
+    font-size: 1.7rem;
+    font-weight:700;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    list-style: inside;
+    list-style-type: none;
+    color: var(--dblack);
+}
+
+.imagen-card{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#dancer1{
+    min-width: 214px;
+    max-width: 300px;
+    margin: 20px;
+    opacity: 0.15;
+}
+
+.presentacion-detalle--card li{
+    padding-left: 14px;
+    font-size: 1.7rem;
+    font-weight:300;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    list-style: inside;
+    list-style-type: none;
+    color: var(--dblack);
+}
+
+/*ESTILOS DE LA GALERIA DE FOTOS*/
+
+.galeria {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 280px;
+    height: 42vh; /* 60-18vh mide el encabezado*/
+    width: 100%;  /*Ojo con este pude lograr bien el scroll horizontal*/
+}
+
+.galeria-container--slider {
+    display:flex;
+    align-content: center;
+    width: 100%;
+    min-width: 280px;
+    height:38vh;
+    margin: 0;
+    overflow-x: scroll;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: x proximity;
+    background-color: var(--violet);
+}
+
+.galeria-container--slider::-webkit-scrollbar {
+    background-color: var(--violet);
+    height: 3px;
+}
+
+.galeria-container--slider::-webkit-scrollbar-thumb {
+    background-color: var(--purple);
+    height: 3px;
+}
+
+.galeria-container--card {
+    position: relative;
+    scroll-snap-align: center;
+    width: 80%;
+    min-width: 220px; 
+    height:220px;
+    margin: 0px 5px 0px 5px;
+    padding: 8px 8px;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow:  6px 6px 6px var(--gray-violet);
+}
+
+.galeria-container--card img {
+    width: 100%;
+}
+
+.galeria-container--card video {
+    width: 100%;
+}
+
+/*ESTILOS DEL PORTAFOLIO*/
+
+.presentacion-videos--container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.contenido-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    align-content: center;
+    width: 280px;
+    margin: 0px 0px 14px 0px;
+}
+
+.contenido-card h3 {
+    padding: 0px 14px 15px 14px;
+    height: 2.6rem;    /*Es igual al valor del doble de la altura del texto para que no se desalineen los videos si el texto queda de dos líneas*/
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    text-align:center;
+    color: var(--purple);
+    letter-spacing: 0px; 
+}
+
+.video-card {
+    align-self: center;
+    border-radius: 10px;
+    width: 252px;
+    height: 141.7px;
+}
+
+.video-card video {
+    border-radius: 10px;
+    width: 252px;
+    height: 141.7px;
+}
+
+/*ESTILOS DEL FOOTER*/
+
+.logo-footer {
+    position: absolute;
+    width: 140px;
+    bottom: 160px;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 280px;
+    height:25vh;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: radial-gradient(circle 400px at top, var(--purple) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 90%);
+    box-shadow: 0 0 2.0em 0 var(--almostblack);
+    z-index: 3;
+}
+
+.redes li {
+    display:inline-block;
+    margin: 3px 10px 3px 10px;
+    font-size: 1.4rem;
+    font-weight:300;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+    list-style-type: none;
+}
+
+span {
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.contacto a{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    text-decoration: none;
+    color: var(--purple);
+}
+
+#logo-instagram {
+    background-image: url(./assets/img/instagram.png);
+    background-size:cover;
+    vertical-align: -2px;
+}
+
+#logo-youtube {
+    background-image: url(./assets/img/you-tube.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    vertical-align: -5px;
+}
+
+#logo-whatsapp {
+    background-image: url(./assets/img/whatsapp.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    vertical-align: -2px;
+}
+
+#logo-mail {
+    background-image: url(./assets/img/email.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    vertical-align: -5px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: var(--gold);
+}
+
+.redes a:hover{
+    color: var(--coldwhite);
+    text-shadow: 0 0 0.5em var(--coldwhite);
+}
+
+.pie-pag {
+    margin-top: 1.1rem;
+}
+
+footer p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: var(--gold);
+    letter-spacing: 1px; 
+}
+
+@media (max-width: 704px){ 
+    nav {
+        display: none;
+    }
+
+}
+
+
+
