@@ -23,8 +23,6 @@ bellyDance.addEventListener('click', subirBe);
 botonAtrasLa.addEventListener('click', bajarLa);
 botonAtrasBe.addEventListener('click', bajarBe);
 
-let iframe = document.getElementsByTagName('iframe');
-
 function subirLa(){
   
   textoLa.classList.remove('inactive');
@@ -75,7 +73,7 @@ function bajarBe(){
   iframe.src = temp;
 }
 
-// Funcionamiento de los videos de la portada
+// Funcionamiento de los videos del portafolio
 document.addEventListener(
   "play",
   function(e) {
@@ -89,14 +87,6 @@ document.addEventListener(
   true
 );
 
-//Parar videos you tube
-function controlVideo() {
-  var iframe = document.getElementsByTagName("iframe")[0].contentWindow;
-  iframe.postMessage(
-    '{"event":"command","func":"stopVideo","args":""}',
-    "*"
-  );
-}
 
 
 
