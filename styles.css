@@ -9,6 +9,9 @@
     --lightgrey: #a4a6a8;
     --coldwhite:#f6f5f4;
     --violet: #efe8fa;
+    --font-primary: "Dosis", sans-serif;
+    --font-secundary: "Satisfy", cursive; 
+    --font-name: "Fleur De Leah", cursive;
 }
 
 *{
@@ -69,7 +72,7 @@ nav {
     display: inline;
     color: var(--gold);
     font-size: 1.5rem;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary); 
     padding-right: 1.0rem;
     padding-left: 1.0rem;
     text-decoration: none;
@@ -108,9 +111,21 @@ main {
 h1 {
     display:block;
     text-align: center;
+    font-size: 5.0rem;
+    font-family: var(--font-name);
+    font-weight: 700;
+    margin-top: 20vh;
+    height: 50vh;
+    color: rgb(1, 5, 17);
+    text-shadow: -2px -2px 0.1em var(--gold), 2px 2px 0.1em var(--gold), -2px 2px 0.1em var(--gold), 2px -2px 0.1em var(--gold); 
+}
+
+.generos {
+    display:block;
+    text-align: center;
     font-size: 1.7rem;
     color: var(--gold);
-    font-family: 'Satisfy', cursive;
+    font-family: var(--font-secundary);
     font-weight: 500;
     letter-spacing: 0px; 
     text-shadow: 1px 1px var(--gray-violet);
@@ -168,7 +183,7 @@ h1 {
     align-content: center;
     overflow-y:scroll;
     padding: 10vh 20px 10vh 20px;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     font-size: 1.7rem;
     font-weight:300;
     text-align: justify;
@@ -195,7 +210,7 @@ h1 {
     align-content: center;
     overflow-y:scroll;
     padding: 10vh 20px;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     font-size: 1.7rem;
     font-weight:300;
     text-align: justify;
@@ -211,7 +226,7 @@ iframe {
 
 .back-button {
     display: block;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     font-size: 1.7rem;
     font-weight:700;
     text-align: center;
@@ -249,7 +264,6 @@ iframe {
     top: 15vh;
     left: 0px;
     padding: 10px;
-    box-shadow: inset 0 0 1.0em 0 var(--coldwhite);
     z-index: 2;
     /*Glassmorphism*/
     background: rgba(153, 135, 204, 0.411);
@@ -261,7 +275,7 @@ iframe {
     padding: 15px;
     font-size: 1.5rem;
     font-weight: 600;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-decoration: none;
     color: var(--gold);
     text-shadow: 1px 1px 1px var(--almostblack);
@@ -286,7 +300,7 @@ h2 {
     font-size: 3.5rem;
     color: var(--purple);
     text-shadow: 1px 1px 1px var(--lightgrey);
-    font-family: 'Satisfy', cursive;
+    font-family: var(--font-secundary);
     letter-spacing: 0px; 
 }
 
@@ -320,7 +334,7 @@ h2 {
     padding-bottom: 2px;
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align:left;
     color: var(--purple);
     letter-spacing: 0px; 
@@ -329,7 +343,7 @@ h2 {
 .presentacion-detalle--card p {
     font-size: 1.7rem;
     font-weight:300;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align: justify;
     color: var(--almostblack);
 }
@@ -337,7 +351,7 @@ h2 {
 .clases b{
     font-size: 1.7rem;
     font-weight:700;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align: left;
     list-style: inside;
     list-style-type: none;
@@ -363,7 +377,7 @@ h2 {
     padding-left: 14px;
     font-size: 1.7rem;
     font-weight:300;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align: left;
     list-style: inside;
     list-style-type: none;
@@ -450,7 +464,7 @@ h2 {
     height: 2.6rem;    /*Es igual al valor del doble de la altura del texto para que no se desalineen los videos si el texto queda de dos líneas*/
     font-size: 1.3rem;
     font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align:center;
     color: var(--purple);
     letter-spacing: 0px; 
@@ -498,7 +512,7 @@ footer{
     margin: 3px 10px 3px 10px;
     font-size: 1.4rem;
     font-weight:300;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align: left;
     list-style-type: none;
 }
@@ -560,7 +574,7 @@ span {
 footer p{
     font-size: 1.4rem;
     font-weight: 500;
-    font-family: 'Dosis', sans-serif;
+    font-family: var(--font-primary);
     text-align: center;
     color: var(--gold);
     letter-spacing: 1px; 

@@ -10,8 +10,12 @@
 .portada {
     background-image: url(./assets/img/Inicio-tablet.jpeg);
 }
-    
+
 h1 {
+    font-size: 7.0rem;
+}
+    
+.generos {
     font-size: 2.1rem;
 }
 
