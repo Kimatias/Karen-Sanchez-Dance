@@ -12,7 +12,7 @@
 }
 
 h1 {
-    font-size: 7.0rem;
+    font-size: 6.5rem;
 }
     
 .generos {
@@ -63,6 +63,12 @@ iframe {
     width: 100%;
     align-self: self-start;
     justify-content: center;
+}
+
+.detail-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
 }
 
 .presentacion-videos--container{

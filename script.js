@@ -9,7 +9,7 @@ function toggleMobileMenu(){
   mobileMenuHome.classList.toggle('inactive');
 }
 
-// Ocultar titulo h1 y mostrar texto de explicación
+// Ocultar titulo h1 y mostrar texto de explicación generos
 const latinDancesport = document.querySelector('#latin-dancesport');
 const bellyDance = document.querySelector('#bellydance');
 const textoLa = document.querySelector('section.que-es-latindancesport');
@@ -27,7 +27,7 @@ function subirLa(){
   
   textoLa.classList.remove('inactive');
 
-  if (portadaActiva.classList.contains('animacion-salida--portada')) {
+  if (portadaActiva.classList.contains('animacion-salida--portada') == true) {
     portadaActiva.classList.remove('animacion-salida--portada');
     portadaActiva.classList.add('animacion-entrada--portada');
   }
@@ -72,20 +72,6 @@ function bajarBe(){
   var temp = iframe.src;    //Esta línea y la siguiente es para para detener el video cuando hacemos click en el botón atrás
   iframe.src = temp;
 }
-
-// Funcionamiento de los videos del portafolio
-document.addEventListener(
-  "play",
-  function(e) {
-    var videos = document.getElementsByTagName("video");
-    for (var i = 0, len = videos.length; i < len; i++) {
-      if (videos[i] != e.target) {
-        videos[i].pause();
-      }
-    }
-  },
-  true
-);
 
 
 

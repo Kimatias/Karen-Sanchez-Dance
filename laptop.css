@@ -1,9 +1,9 @@
 .portada {
-    background-image: url(./assets/img/Inicio-desktop.jpeg);
+    background-image: url(./assets/img/Inicio-desktop.jpg);
 }
 
 h1 {
-    font-size: 8.0rem;
+    font-size: 6.5rem;
 }
 
 .presentacion-tarjetas--container{
