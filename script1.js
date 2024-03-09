@@ -39,6 +39,11 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/DSC_2507.jpg",
+  alt: "Fotografía de Karen con alas de Isis"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-6.png",
   alt: "Fotografía de pareja Karen y John"
 });
@@ -54,12 +59,22 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/DSC_2288.jpg",
+  alt: "Fotografía de Karen y John"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-9.png",
   alt: "Fotografía de pareja Karen y Harvey"
 });
 
 fotografias.push({
   foto: "./assets/img/Galeria/pic-10.jpg",
+  alt: "Fotografía de pareja Karen y John"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/DSC_1922.jpg",
   alt: "Fotografía de pareja Karen y John"
 });
 
@@ -74,6 +89,11 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/DSC_3071.jpg",
+  alt: "Fotografía de Karen"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-13.png",
   alt: "Fotografía de Karen"
 });
@@ -84,8 +104,13 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/DSC_2303.jpg",
+  alt: "Fotografía de pareja Karen y John"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-15.png",
-  alt: "Fotografía de Karen y entrenadora Patricia Jofré"
+  alt: "Fotografía de Karen"
 });
 
 fotografias.push({

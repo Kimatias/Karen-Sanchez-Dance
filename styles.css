@@ -44,8 +44,8 @@ header {
 
 .logo-header {
     position: absolute;
-    width: 120px;
-    bottom: -61px;
+    width: 97px;
+    bottom: -49px;
 }
 
 #menu {
@@ -115,7 +115,7 @@ h1 {
     font-family: var(--font-name);
     font-weight: 700;
     margin-top: 20vh;
-    height: 50vh;
+    height: 15vh;
     color: rgb(15, 11, 63);
     text-shadow: -2px -2px 0.1em var(--gold), 2px 2px 0.1em var(--gold), -2px 2px 0.1em var(--gold), 2px -2px 0.1em var(--gold); 
 }
