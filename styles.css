@@ -281,13 +281,28 @@ iframe {
     text-shadow: 1px 1px 1px var(--almostblack);
 }
 
-.mobile-menu a:hover{
+.mobile-menu a:hover {
     color: var(--coldwhite);
     text-shadow: 0 0 0.5em var(--gray-violet);
 }
 
+.animacion-menu {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
+}
+
 .inactive{
     display:none;
+    opacity: 0;
+    transition: 300ms ease-in;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 1;
+    }
 }
 
 /*ESTILOS DE LAS TARJETAS EN PAGINAS NO HOME*/

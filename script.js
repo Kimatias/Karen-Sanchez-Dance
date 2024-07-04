@@ -7,6 +7,7 @@ menuBurguer.addEventListener('click', toggleMobileMenu);
 
 function toggleMobileMenu(){
   mobileMenuHome.classList.toggle('inactive');
+  mobileMenuHome.classList.toggle('animacion-menu');
 }
 
 // Ocultar titulo h1 y mostrar texto de explicación generos
