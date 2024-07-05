@@ -118,6 +118,12 @@ h1 {
     height: 15vh;
     color: rgb(15, 11, 63);
     text-shadow: -2px -2px 0.1em var(--gold), 2px 2px 0.1em var(--gold), -2px 2px 0.1em var(--gold), 2px -2px 0.1em var(--gold); 
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 .generos {
@@ -317,10 +323,21 @@ h2 {
     text-shadow: 1px 1px 1px var(--lightgrey);
     font-family: var(--font-secundary);
     letter-spacing: 0px; 
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 .side-image{
     display: none;
+    transition: opacity 1s ease-in-out;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 .presentacion-tarjetas--container{
@@ -421,6 +438,11 @@ h2 {
     overscroll-behavior-x:contain;
     scroll-snap-type: x proximity;
     background-color: var(--violet);
+    transition: opacity 1s ease-in-out;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 .galeria-container--slider::-webkit-scrollbar {
@@ -458,6 +480,12 @@ h2 {
     width: 100%;
     margin-bottom: 20px;
     box-shadow:  6px 6px 6px var(--gray-violet);
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
 
 #close {
@@ -513,7 +541,18 @@ h2 {
     border-radius: 10px;
     width: 252px;
     height: 141.7px;
+    opacity: 0.65;
+    transition: opacity 600ms ease-in-out;
+    transition-behavior: allow-discrete;
+    @starting-style {
+        opacity: 0;
+    }
 }
+
+.video-card video:hover {
+    opacity: 1;
+}
+
 
 /*ESTILOS DEL FOOTER*/
 

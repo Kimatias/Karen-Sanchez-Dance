@@ -17,6 +17,10 @@ document.addEventListener(
     for (var i = 0, len = videos.length; i < len; i++) {
       if (videos[i] != e.target) {
         videos[i].pause();
+        videos[i].style.opacity = "0.65";
+      }
+      if (videos[i] == e.target) {
+        videos[i].style.opacity = "1";
       }
     }
   },
