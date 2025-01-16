@@ -14,7 +14,17 @@ function toggleMobileMenu(){
 fotografias = []
 
 fotografias.push({
-  foto:"./assets/img/Galeria/pic-1.jpg",
+  foto:"./assets/img/Galeria/IMG_3922.JPEG",
+  alt:"Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/DSC_2288.jpg",
+  alt: "Fotografía de Karen y John"
+});
+
+fotografias.push({
+  foto:"./assets/img/Galeria/pic-3.png",
   alt:"Fotografía de Karen"
 });
 
@@ -24,7 +34,22 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto:"./assets/img/Galeria/pic-3.png",
+  foto:"./assets/img/Galeria/pic-0.JPEG",
+  alt:"Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/DSC_3071.jpg",
+  alt: "Fotografía de Karen"
+});
+
+fotografias.push({
+  foto:"./assets/img/Galeria/pic-19.jpeg",
+  alt:"Fotografía de Karen"
+});
+
+fotografias.push({
+  foto:"./assets/img/Galeria/pic-1.jpg",
   alt:"Fotografía de Karen"
 });
 
@@ -44,12 +69,12 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-6.png",
+  foto: "./assets/img/Galeria/DSC_2303.jpg",
   alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-7.jpg",
+  foto: "./assets/img/Galeria/pic-20.jpeg",
   alt: "Fotografía de pareja Karen y John"
 });
 
@@ -59,17 +84,12 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/DSC_2288.jpg",
-  alt: "Fotografía de Karen y John"
+  foto: "./assets/img/Galeria/pic-22.jpg",
+  alt: "Fotografía de Karen y Jonathan"
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-9.png",
-  alt: "Fotografía de pareja Karen y Harvey"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/pic-10.jpg",
+  foto: "./assets/img/Galeria/pic-6.png",
   alt: "Fotografía de pareja Karen y John"
 });
 
@@ -84,28 +104,43 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/pic-9.png",
+  alt: "Fotografía de pareja Karen y Harvey"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-10.jpg",
+  alt: "Fotografía de pareja Karen y John"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-17.jpg",
+  alt: "Fotografía de grupo Original Rhythm"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-7.jpg",
+  alt: "Fotografía de pareja Karen y John"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-12.png",
   alt: "Fotografía de pareja Karen y Andrés"
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/DSC_3071.jpg",
+  foto: "./assets/img/Galeria/pic-13.jpg",
   alt: "Fotografía de Karen"
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-13.png",
-  alt: "Fotografía de Karen"
+  foto: "./assets/img/Galeria/pic-18.jpeg",
+  alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
   foto: "./assets/img/Galeria/pic-14.png",
   alt: "Fotografía de Karen y entrenadora Karina Rubio"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/DSC_2303.jpg",
-  alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
@@ -116,16 +151,6 @@ fotografias.push({
 fotografias.push({
   foto: "./assets/img/Galeria/pic-16.jpg",
   alt: "Fotografía de Karen y entrenador Eduardo Rizza"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/pic-17.jpg",
-  alt: "Fotografía de grupo Original Rhythm"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/pic-18.jpeg",
-  alt: "Fotografía de pareja Karen y John"
 });
 
 const containerSlider = document.querySelector(".galeria-container--slider");
