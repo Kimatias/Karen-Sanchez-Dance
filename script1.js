@@ -44,7 +44,7 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto:"./assets/img/Galeria/pic-19.jpeg",
+  foto:"./assets/img/Galeria/Pic-19.jpeg",
   alt:"Fotografía de Karen"
 });
 
@@ -74,7 +74,7 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-20.jpeg",
+  foto: "./assets/img/Galeria/Pic-20.jpeg",
   alt: "Fotografía de pareja Karen y John"
 });
 
