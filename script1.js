@@ -134,18 +134,8 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-18.jpeg",
-  alt: "Fotografía de pareja Karen y John"
-});
-
-fotografias.push({
   foto: "./assets/img/Galeria/pic-14.png",
   alt: "Fotografía de Karen y entrenadora Karina Rubio"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/pic-15.png",
-  alt: "Fotografía de Karen"
 });
 
 fotografias.push({
