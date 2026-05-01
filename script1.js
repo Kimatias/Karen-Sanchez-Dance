@@ -44,11 +44,6 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto:"./assets/img/Galeria/Pic-19.jpeg",
-  alt:"Fotografía de Karen"
-});
-
-fotografias.push({
   foto:"./assets/img/Galeria/pic-1.jpg",
   alt:"Fotografía de Karen"
 });
@@ -89,11 +84,6 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-6.png",
-  alt: "Fotografía de pareja Karen y John"
-});
-
-fotografias.push({
   foto: "./assets/img/Galeria/DSC_1922.jpg",
   alt: "Fotografía de pareja Karen y John"
 });
@@ -116,11 +106,6 @@ fotografias.push({
 fotografias.push({
   foto: "./assets/img/Galeria/pic-17.jpg",
   alt: "Fotografía de grupo Original Rhythm"
-});
-
-fotografias.push({
-  foto: "./assets/img/Galeria/pic-7.jpg",
-  alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
