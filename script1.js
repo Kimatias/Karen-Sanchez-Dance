@@ -54,7 +54,7 @@ fotografias.push({
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/pic-24.JPG",
+  foto: "./assets/img/Galeria/pic-24.jpg",
   alt: "Fotografía de Karen"
 });
 
@@ -76,11 +76,6 @@ fotografias.push({
 fotografias.push({
   foto: "./assets/img/Galeria/DSC_2507.jpg",
   alt: "Fotografía de Karen con alas de Isis"
-});
-
-fotografias.push({
-  foto:"./assets/img/Galeria/pic-19.jpeg",
-  alt:"Fotografía de Karen"
 });
 
 fotografias.push({
