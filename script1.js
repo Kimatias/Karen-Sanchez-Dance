@@ -14,8 +14,18 @@ function toggleMobileMenu(){
 fotografias = []
 
 fotografias.push({
+  foto: "./assets/img/Galeria/pic-7.png",
+  alt: "Fotografía de Karen con alas de Isis"
+});
+
+fotografias.push({
   foto:"./assets/img/Galeria/IMG_3922.JPEG",
   alt:"Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-18.jpeg",
+  alt: "Fotografía de Karen con alas de Isis"
 });
 
 fotografias.push({
@@ -26,11 +36,6 @@ fotografias.push({
 fotografias.push({
   foto:"./assets/img/Galeria/pic-3.png",
   alt:"Fotografía de Karen"
-});
-
-fotografias.push({
-  foto:"./assets/img/Galeria/pic-2.jpg",
-  alt:"Fotografía de Karen y John"
 });
 
 fotografias.push({
@@ -49,6 +54,16 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/pic-24.JPG",
+  alt: "Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-26.jpg",
+  alt: "Fotografía de Karen"
+});
+
+fotografias.push({
   foto:"./assets/img/Galeria/pic-4.png",
   alt: "Fotografía de grupo Original Rhythm"
 });
@@ -64,12 +79,22 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto:"./assets/img/Galeria/pic-19.jpeg",
+  alt:"Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/Pic-20.jpeg",
+  alt: "Fotografía de pareja Karen y John"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/DSC_2303.jpg",
   alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
-  foto: "./assets/img/Galeria/Pic-20.jpeg",
+  foto: "./assets/img/Galeria/pic-21.JPG",
   alt: "Fotografía de pareja Karen y John"
 });
 
@@ -84,12 +109,22 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/pic-15.jpg",
+  alt: "Fotografía de Karen y Jonathan"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/DSC_1922.jpg",
   alt: "Fotografía de pareja Karen y John"
 });
 
 fotografias.push({
   foto: "./assets/img/Galeria/pic-11.jpg",
+  alt: "Fotografía de Karen"
+});
+
+fotografias.push({
+  foto: "./assets/img/Galeria/pic-23.JPG",
   alt: "Fotografía de Karen"
 });
 
@@ -124,8 +159,18 @@ fotografias.push({
 });
 
 fotografias.push({
+  foto: "./assets/img/Galeria/pic-25.JPG",
+  alt: "Fotografía de Clase de ballet"
+});
+
+fotografias.push({
   foto: "./assets/img/Galeria/pic-16.jpg",
   alt: "Fotografía de Karen y entrenador Eduardo Rizza"
+});
+
+fotografias.push({
+  foto:"./assets/img/Galeria/pic-2.jpg",
+  alt:"Fotografía de Karen y John"
 });
 
 const containerSlider = document.querySelector(".galeria-container--slider");
