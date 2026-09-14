@@ -15,6 +15,10 @@ h1 {
     font-size: 6.5rem;
 }
     
+#profesion {
+    font-size: var(--font-s);
+}
+
 .generos {
     font-size: 2.1rem;
 }
