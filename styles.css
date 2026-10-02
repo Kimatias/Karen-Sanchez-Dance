@@ -133,6 +133,7 @@ h1 {
     font-family: var(--font-name);
     font-weight: 700;
     margin-top: 20vh;
+    margin-bottom: 2.2rem;
     height: 10vh;
     color: rgb(15, 11, 63);
     text-shadow: -2px -2px 0.1em var(--coldwhite), 2px 2px 0.1em var(--coldwhite), -2px 2px 0.1em var(--coldwhite), 2px -2px 0.1em var(--coldwhite); 
@@ -146,11 +147,32 @@ h1 {
 
 #profesion {
     display: block;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.5rem;    /*var(--font-s)*/
     font-family: var(--font-primary);
     text-align: center;
     width: 100%;
+}
+
+#reserva {
+    display:block;
+    margin: 0 auto;
+    padding: 12px;
+    background: linear-gradient(45deg, var(--purple) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 100%);
+    font-family: var(--font-primary);
+    color:var(--gold);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.portada a {
+    text-decoration: none;
+}
+
+#reserva:hover{
+    color: var(--coldwhite);
+    text-shadow: 0 0 0.5em var(--coldwhite);   
 }
 
 .generos {
@@ -565,6 +587,7 @@ h2 {
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: center;
+    align-items: center;
     margin: 30px 0px;
 }
 
@@ -572,24 +595,27 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    gap: 15px;
     align-self: center;
-    align-content: center;
+    align-items: center;
     width: 280px;
-    margin: 0px 0px 14px 0px;
+    margin: 0px 0px 18px 0px;
+    padding: 0 14px;
 }
 
 .contenido-card h3 {
-    padding: 0px 14px 15px 14px;
-    height: 2.6rem;    /*Es igual al valor del doble de la altura del texto para que no se desalineen los videos si el texto queda de dos líneas*/
+    height: 2.6rem;  /*Es igual al valor del doble de la altura del texto para que no se desalineen los videos si el texto queda de dos líneas*/
     font-size: 1.3rem;
     font-weight: bold;
     font-family: var(--font-primary);
     text-align:center;
+    text-wrap: balance;
     color: var(--purple);
 }
 
 .video-card {
-    align-self: center;
+    justify-content: center;
+    align-self: end;
     border-radius: 10px;
     width: 252px;
     height: 141.7px;
