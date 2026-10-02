@@ -136,12 +136,12 @@ h1 {
     justify-items: center;  /*new*/
     align-items: center;   /*new*/
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     font-family: var(--font-name);
-    font-weight: 700;
+    font-weight: 600;
     height: auto;
-    color: rgb(15, 11, 63);
-    text-shadow: -2px -2px 0.1em var(--coldwhite), 2px 2px 0.1em var(--coldwhite), -2px 2px 0.1em var(--coldwhite), 2px -2px 0.1em var(--coldwhite); 
+    color: var(--gold);   /*rgb(15, 11, 63);*/
+    text-shadow: -3px -3px 0.2em rgb(15, 11, 63), 3px 3px 0.2em rgb(15, 11, 63), -3px 3px 0.2em rgb(15, 11, 63), 3px -3px 0.2em rgb(15, 11, 63);
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
     transition-behavior: allow-discrete;
@@ -152,8 +152,8 @@ h1 {
 
 #profesion {
     display: block;
-    margin: 10px;
-    font-weight: 700;
+    margin: 4px;
+    font-weight: 300;
     font-size: 1.5rem;    /*var(--font-s)*/
     font-family: var(--font-primary);
     text-align: center;
@@ -168,6 +168,7 @@ h1 {
     background: linear-gradient(45deg, var(--purple) 13%,var(--purple) 15%, var(--purple) 2%, var(--almostblack) 100%);
     font-family: var(--font-primary);
     font-size: 1.5rem;
+    font-weight: 500;
     color:var(--gold);
     border: none;
     border-radius: 2.2rem;
@@ -186,7 +187,7 @@ h1 {
 .generos {
     display:block;
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     color: var(--gold);
     font-family: var(--font-secundary);
     font-weight: 500;
